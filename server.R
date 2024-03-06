@@ -11,7 +11,7 @@ library(plotly)
 library(ggplot2)
 library(maps)
 library(mapproj)
-
+d
 cleandata <- read.csv("cleandata.csv")
 cleandata <- cleandata %>%
   mutate(...1 = NULL,
