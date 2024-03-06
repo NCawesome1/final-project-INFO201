@@ -70,7 +70,7 @@ viz_3_main_panel <- mainPanel(
   plotlyOutput("crimeWagePlot")
 )
 
-viz_3_tab <- tabPanel("Minimum Wage by Selected Year",
+viz_3_tab <- tabPanel("Assault Rates vs. Minimum Wage",
   sidebarLayout(
     viz_3_sidebar,
     viz_3_main_panel
